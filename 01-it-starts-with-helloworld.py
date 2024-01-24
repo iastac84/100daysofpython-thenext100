@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-# Day 1
+# Day 01
 import getpass
 
 # Hello world to current user (whoami)
