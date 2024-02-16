@@ -2,7 +2,7 @@
 # Day 02
 
 def main():
-    # List of all USA states
+    # List of all 50 USA states
     usa_states = [
         "Alabama", "Alaska", "Arizona", "Arkansas", "California", "Colorado", "Connecticut", "Delaware",
         "Florida", "Georgia", "Hawaii", "Idaho", "Illinois", "Indiana", "Iowa", "Kansas", "Kentucky",
