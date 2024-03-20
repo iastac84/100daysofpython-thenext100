@@ -56,6 +56,5 @@ for item in data:
     path = split_item[3:]  # Extracting the hierarchy path
     add_to_tree(tree.setdefault(root, {}).setdefault(level, {}).setdefault(category, {}), path)
 
-print('└── ' + root_directory)
 print_tree(tree)
 
