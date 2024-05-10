@@ -16,6 +16,7 @@ def main(website, port=80):
         # Perform NSLOOKUP to get IP address
         answers = nslookup(website)
         ip_address = answers[0].to_text()
+        print(f"nslookup answer: {answers}")
         print(f"{website} resolves to {ip_address}")
 
         # Open socket connection
