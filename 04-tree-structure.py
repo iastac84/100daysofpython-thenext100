@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # Day 04 
 
-# Turn list into a tree structure
+# Turn list into a tree structure.
 
 def add_to_tree(tree, path):
     current = tree
