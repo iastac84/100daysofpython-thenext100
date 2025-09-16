@@ -9,4 +9,3 @@ merged = pd.merge(df_a, df_b, on="name", how="inner")  # use "outer", "left", or
 
 # Save to a new CSV
 merged.to_csv("merged.csv", index=False)
-
